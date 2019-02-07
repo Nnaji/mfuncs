@@ -1,0 +1,11 @@
+{
+  "name": "math-funcs",
+  "version": "1.0.0",
+  "description": "Javascript math functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Kingsley Nnaji",
+  "license": "ISC"
+}
