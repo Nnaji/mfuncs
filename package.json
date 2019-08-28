@@ -1,6 +1,6 @@
 {
     "name": "math-funcs",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Javascript math functions",
     "main": "index.js",
     "scripts": {
@@ -10,9 +10,9 @@
     "author": "Kingsley Nnaji",
     "license": "ISC",
     "devDependencies": {
-        "chai": "^4.2.0",
-        "eslint": "^5.13.0",
-        "mocha": "^5.2.0",
-        "sinon": "^7.2.3"
+        "chai": "4.2.0",
+        "eslint": "5.13.0",
+        "mocha": "5.2.0",
+        "sinon": "7.2.3"
     }
 }
