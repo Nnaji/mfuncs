@@ -19,4 +19,12 @@ function addn(...args) {
     return result;
 }
 
-module.exports = { addn, add };
+// a better way to write the addn function is using functional style
+// reusing the add function in conjunction with reduce javascript built-in function
+
+// this addx function takes a list of numeric values and call reduce function to sum them up
+function addx(arr) {
+	return(arr.reduce(add));
+}
+
+module.exports = { addn, add, addx };
