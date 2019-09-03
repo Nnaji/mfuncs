@@ -9,38 +9,52 @@ const chai = require('chai');
 const expect = chai.expect;
 
 describe('addfunc unit tests', () => {
-    let numOne = 1;
-    let numTwo = 2;
-    let numThree = 3;
-    let numFour = 4;
-    let numFive = 5;
-    let numArray = [numOne, numTwo, numThree, numFour, numFive];
-    describe('add', () => {
-        it('should return the difference of 2 passing 4 and 2 as arguments', () => {
-            expect(addfunc.add(numFour, numTwo)).to.equals(2);
-        });
-    });
+  let numOne = 1;
+  let numTwo = 2;
+  let numThree = 3;
+  let numFour = 4;
+  let numFive = 5;
+  let numArray = [numOne, numTwo, numThree, numFour, numFive];
 
-    describe('add', () => {
-        it('should return a number', () => {
-            expect(addfunc.add(numTwo, numOne)).to.be.a('number');
-        });
+  describe('addx section', () => {
+    it('should return the total of 15 when given numArray', () => {
+      expect(addfunc.addx(numArray)).to.equals(15);
     });
-    describe('add', () => {
-        it('should not return an array', () => {
-            expect(addfunc.add(...numArray)).not.to.be.an('array');
-        });
-    });
-    describe('add function', () => {
-        it('should not return undefine', () => {
-            expect(addfunc.add()).not.be.undefined;
-        });
-    });
-    describe('add function', () => {
-        it('should not return null', () => {
-            expect(addfunc.add()).not.to.null;
-        });
-    });
+  });
 
+  describe('addx', () => {
+    it('should take an input of an Array but not a number', () => {
+      expect(addfunc.add(numArray)).not.to.be.a('number');
+    });
+  });
+
+  describe('addx', () => {
+    it('should not return an array', () => {
+      expect(addfunc.addx(numArray)).to.be.a('number');
+    });
+  });
+
+  describe('addx function', () => {
+    it('should not be undefined define', () => {
+      expect(addfunc.addx(numArray)).not.be.undefined;
+    });
+  });
+
+  describe('addx function', () => {
+    it('should not be null', () => {
+      expect(addfunc.addx(numArray)).not.to.null;
+    });
+  });
+
+  describe('add function test section', () => {
+    it('should not be a string', () => {
+      expect(addfunc.add(...numArray)).not.to.be.a('string');
+    });
+  });
+
+  describe('add function', () => {
+    it('should not return null', () => {
+      expect(addfunc.add()).not.to.null;
+    });
+  });
 });
-
