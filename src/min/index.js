@@ -4,3 +4,6 @@
 	Creation Date : 20.09.2019
 ***************************************************************/
 const min = require('./minfunc');
+
+module.exports = min ;
+

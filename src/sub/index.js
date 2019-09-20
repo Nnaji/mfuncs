@@ -3,4 +3,6 @@
 	@LICENSE: MIT
 	Creation Date : 20.09.2019
 ***************************************************************/
-const sub = require('./src/sub');
+const sub = require('./subfunc');
+
+module.exports = sub;
