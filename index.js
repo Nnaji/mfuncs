@@ -6,3 +6,7 @@
 const min = require('./src/min');
 const sum = require('./src/sum');
 const sub = require('./src/sub');
+
+module.exports = min;
+module.exports = sum;
+module.exports = sub;
