@@ -3,4 +3,4 @@
 	@LICENSE: MIT
 	Creation Date : 20.09.2019
 ***************************************************************/
-const minfunc = require('./minfunc');
+const min = require('./minfunc');
