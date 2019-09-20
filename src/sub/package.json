@@ -1,0 +1,18 @@
+{
+  "name": "sub",
+  "version": "1.0.0",
+  "description": "Javascript substraction math function",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "Kingsley Nnaji",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "eslint": "5.13.0",
+    "mocha": "5.2.0",
+    "sinon": "7.2.3"
+  }
+}
